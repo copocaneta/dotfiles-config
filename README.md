@@ -10,7 +10,6 @@ This repository contains my standalone Yabai and Skhd configurations.
 
 ## Change focus between external displays (left and right)
 
-
 <kbd>⌥ Option</kbd> + <kbd>s</kbd>
 
 <kbd>⌥ Option</kbd> + <kbd>g</kbd>
@@ -18,26 +17,33 @@ This repository contains my standalone Yabai and Skhd configurations.
 ## Modifying the layout
 
 ### Rotate layout clockwise
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>r</kbd>
 
 ### Flip along y-axis
-<kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> - y
+
+<kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>y</kbd>
 
 ### Flip along x-axis
-<kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> - x
+
+<kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>x</kbd>
 
 ### Toggle window float
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>t</kbd>
 
 ## Modifying Window Size
 
 ### Maximize a window
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>m</kbd>
 
 ### Balance out tree of windows (resize to occupy same area)
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>e</kbd>
 
 ### Resize windows
+
 <kbd>⌃ Control</kbd> + <kbd>⌘ Command</kbd> + <kbd>h</kbd>
 
 <kbd>⌃ Control</kbd> + <kbd>⌘ Command</kbd> + <kbd>j</kbd>
@@ -49,6 +55,7 @@ This repository contains my standalone Yabai and Skhd configurations.
 ## Moving Windows Around
 
 ### Swap windows
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>j</kbd>
 
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>k</kbd>
@@ -58,6 +65,7 @@ This repository contains my standalone Yabai and Skhd configurations.
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>l</kbd>
 
 ### Move window and split
+
 <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>j</kbd>
 
 <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>k</kbd>
@@ -66,18 +74,19 @@ This repository contains my standalone Yabai and Skhd configurations.
 
 <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>l</kbd>
 
-
 ### Move window to display left and right
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>s</kbd>
 
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>g</kbd>
 
-
 ### Move window to prev and next space
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>p</kbd>
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>n</kbd>
 
 ### Move window to space
+
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>1</kbd>
 
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>2</kbd>
@@ -95,6 +104,7 @@ This repository contains my standalone Yabai and Skhd configurations.
 ## Starting/Stopping/Restarting Yabai
 
 ### stop/start/restart yabai
+
 <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>q</kbd>
 
 <kbd>⌃ Control</kbd> + <kbd>⌥ Option</kbd> + <kbd>s</kbd>
