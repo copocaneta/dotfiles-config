@@ -47,6 +47,9 @@ ctrl + alt - k : yabai -m window --warp north
 ctrl + alt - h : yabai -m window --warp west
 ctrl + alt - l : yabai -m window --warp east
 
+# toggle window split type
+alt - e : yabai -m window --toggle split
+
 # Resize windows
 lctrl + cmd - h : \
 	yabai -m window --resize left:-20:0 ; \

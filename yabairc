@@ -1,3 +1,14 @@
+
+# border style:
+yabai -m config window_border                on
+yabai -m config window_border_placement      inset
+yabai -m config window_border_width          4
+yabai -m config window_border_radius         -1.0
+yabai -m config active_window_border_topmost off
+yabai -m config active_window_border_color   0xffff603b
+yabai -m config normal_window_border_color   0xff505050
+yabai -m config insert_window_border_color   0xffd75f5f
+
 # default layout (can be bsp, stack or float)
 yabai -m config layout bsp
 
@@ -30,8 +41,12 @@ yabai -m mouse_drop_action swap
 # disable specific apps
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Simulator$" manage=off
+yabai -m rule --add app="^Terminal$" manage=off
 yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
+yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^Irvue$" manage=off
 yabai -m rule --add app="^Sign in$" manage=off
 yabai -m rule --add app="^qemu-system-aarch64$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
