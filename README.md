@@ -356,18 +356,18 @@ This repository contains my standalone Yabai and Skhd configurations.
 
 <kbd>space</kbd> + <kbd>d</kbd>
 
-### Jump to previous diagnostic in bugger
+### Jump to previous diagnostic in buffer
 
 <kbd>[</kbd><kbd>d</kbd>
 
-### Jump to next diagnostic in bugger
+### Jump to next diagnostic in buffer:
 
 <kbd>]</kbd><kbd>d</kbd>
 
-### Show documentation for what is under curor
+### Show documentation for what is under cursor:
 
 <kbd>K</kbd>
 
-### See outline in right hand side
+### See outline in right hand side:
 
 <kbd>space</kbd> + <kbd>o</kbd>
