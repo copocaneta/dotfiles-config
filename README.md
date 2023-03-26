@@ -1,8 +1,8 @@
 # Yabai and Skhd Config
 
-This repository contains my standalone Yabai and Skhd configurations.
+This repository contains my standalone Yabai, skhd, tmux and nvim configurations.
 
-# Keyboard Shortcuts
+# Yabai
 
 ## Changing Focus
 
