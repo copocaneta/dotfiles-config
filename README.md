@@ -101,6 +101,10 @@ This repository contains my standalone Yabai, skhd, tmux and nvim configurations
 
 <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>7</kbd>
 
+### Toggle window split type
+
+<kbd>⌥ Option</kbd> + <kbd>e</kbd>
+
 ## Starting/Stopping/Restarting Yabai
 
 ### stop/start/restart yabai
