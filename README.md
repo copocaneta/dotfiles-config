@@ -1,4 +1,4 @@
-# Yabai and Skhd Config
+# Yabai, skhd, Tmux and neovim configs
 
 This repository contains my standalone Yabai, skhd, tmux and nvim configurations.
 
