@@ -12,7 +12,7 @@ keymap.set("n", "x", '"_x') -- in NORMAL mode use x to delete single character b
 
 -- increment decrement numbers:
 
-keymap.set("n", "<leader>=", "<C-a>") -- in normal mode use space + or - to increment or decrement numbers 
+keymap.set("n", "<leader>=", "<C-a>") -- in normal mode use space + or - to increment or decrement numbers
 keymap.set("n", "<leader>-", "<C-x>")
 
 -- Split Window, Close Window:
@@ -34,7 +34,6 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to previous tab
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
-
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
@@ -45,3 +44,5 @@ keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string u
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
 
+-- lazygit
+keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>") -- toggle LazyGit

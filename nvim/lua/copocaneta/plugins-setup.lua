@@ -107,6 +107,13 @@ return packer.startup(function(use)
 	-- git integration
 	use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+	-- lazygit plugin
+
+	use("kdheepak/lazygit.nvim") -- open lazygit inside neovim
+
+	-- nvim-ts-context-commentstring for better commenting when on JSX files
+	use("JoosepAlviste/nvim-ts-context-commentstring")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
