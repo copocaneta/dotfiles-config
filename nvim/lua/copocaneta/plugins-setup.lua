@@ -33,7 +33,11 @@ return packer.startup(function(use)
 
 	use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
 
-	use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
+	-- use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
+	use("folke/tokyonight.nvim") -- another theme
+
+	-- a plugin for indenting lines
+	use("lukas-reineke/indent-blankline.nvim")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
@@ -63,6 +67,8 @@ return packer.startup(function(use)
 	use("hrsh7th/nvim-cmp") -- completion plugin
 	use("hrsh7th/cmp-buffer") -- source for text in buffer
 	use("hrsh7th/cmp-path") -- source for file system paths
+
+	use("hrsh7th/cmp-nvim-lsp-signature-help") -- to show functions signature
 
 	-- snippets
 	use("L3MON4D3/LuaSnip") -- snippet engine
@@ -113,6 +119,10 @@ return packer.startup(function(use)
 
 	-- nvim-ts-context-commentstring for better commenting when on JSX files
 	use("JoosepAlviste/nvim-ts-context-commentstring")
+
+	-- nvim-bqf utility for quick fix list
+
+	use("kevinhwang91/nvim-bqf")
 
 	if packer_bootstrap then
 		require("packer").sync()
