@@ -56,3 +56,15 @@ yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
 yabai -m rule --add label="Software Update" title="Software Update" manage=off
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add app="^Google Chrome$" title="^devtools" manage=off
+yabai -m rule --add app="Finder" title=" Info" manage=off
+yabai -m rule --add app="Finder" title="Copy" manage=off
+yabai -m rule --add app="Finder" title="Mov" manage=off
+yabai -m rule --add app="Finder" title="Trash" manage=off
+yabai -m rule --add title="Preferences" manage=off
+yabai -m rule --add app="iTunes" title="MiniPlayer" manage=off
+yabai -m rule --add app="Music" title="MiniPlayer" manage=off
+yabai -m rule --add app="Front" title="New Message" manage=off
+yabai -m rule --add app="Front" title="New Discussion" manage=off
+yabai -m rule --add app="Firefox" title="Picture-in-Picture" manage=off
+yabai -m rule --add app="Google Chrome" title="Picture in Picture" manage=off
