@@ -124,6 +124,9 @@ return packer.startup(function(use)
 
 	use("kevinhwang91/nvim-bqf")
 
+	-- vim fugitive
+	use("tpope/vim-fugitive")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
