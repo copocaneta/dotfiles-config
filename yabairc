@@ -42,10 +42,12 @@ yabai -m mouse_drop_action swap
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Simulator$" manage=off
+yabai -m rule --add app="^Harvest$" manage=off
 yabai -m rule --add app="^Terminal$" manage=off
 yabai -m rule --add app="^Karabiner-Elements$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^Steam$" manage=off
 yabai -m rule --add app="^Irvue$" manage=off
 yabai -m rule --add app="^Sign in$" manage=off
 yabai -m rule --add app="^qemu-system-aarch64$" manage=off
@@ -56,7 +58,7 @@ yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
 yabai -m rule --add label="Software Update" title="Software Update" manage=off
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
-yabai -m rule --add app="^Google Chrome$" title="^devtools" manage=off
+yabai -m rule --add app="^Google Chrome$" title="^DevTools" manage=off
 yabai -m rule --add app="Finder" title=" Info" manage=off
 yabai -m rule --add app="Finder" title="Copy" manage=off
 yabai -m rule --add app="Finder" title="Mov" manage=off
