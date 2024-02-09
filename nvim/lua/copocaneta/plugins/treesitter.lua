@@ -28,8 +28,8 @@ treesitter.setup({
 		"gitignore",
 	},
 	auto_install = true,
-	context_commentstring = {
-		enable = true,
-		enable_autocmd = false,
-	},
+	-- context_commentstring = {
+	-- 	enable = true,
+	-- 	enable_autocmd = false,
+	-- },
 })

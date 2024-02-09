@@ -46,3 +46,6 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available 
 
 -- lazygit
 keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>") -- toggle LazyGit
+
+-- toggle term
+keymap.set("n", "<leader>t", "<cmd>ToggleTerm direction=float<cr>")
