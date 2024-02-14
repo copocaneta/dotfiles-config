@@ -1,6 +1,11 @@
 -- Local module for VSCode integration functions
 vscode_integration = {}
 
+local M = {}
+
+local augroup = vim.api.nvim_create_augroup
+local keymap = vim.api.nvim_set_keymap
+
 function vscode_integration.split(direction, file)
 	if direction == "h" then
 		vim.fn.VSCodeCall("workbench.action.splitEditorDown")
@@ -28,6 +33,14 @@ function vscode_integration.manageEditorSize(count, to)
 			to == "increase" and "workbench.action.increaseViewSize" or "workbench.action.decreaseViewSize"
 		)
 	end
+end
+
+local function notify(cmd)
+	return string.format("<cmd>call VSCodeNotify('%s')<CR>", cmd)
+end
+
+local function v_notify(cmd)
+	return string.format("<cmd>call VSCodeNotifyVisual('%s', 1)<CR>", cmd)
 end
 
 -- Commands
@@ -138,6 +151,25 @@ local function set_keymaps()
 	)
 	vim.api.nvim_set_keymap("n", "<Space>w", '<Cmd>lua vim.fn.VSCodeNotify("whichkey.show")<CR>', opts)
 	vim.api.nvim_set_keymap("x", "<Space>w", '<Cmd>lua vim.fn.VSCodeNotify("whichkey.show")<CR>', opts)
+
+	keymap("n", "<Space>xr", notify("references-view.findReferences"), { silent = true }) -- language references
+	keymap("n", "<Space>xd", notify("workbench.actions.view.problems"), { silent = true }) -- language diagnostics
+	keymap("n", "gr", notify("editor.action.goToReferences"), { silent = true })
+	keymap("n", "<Space>rn", notify("editor.action.rename"), { silent = true })
+	keymap("n", "<Space>fm", notify("editor.action.formatDocument"), { silent = true })
+	keymap("n", "<Space>ca", notify("editor.action.refactor"), { silent = true }) -- language code actions
+
+	keymap("n", "<Space>rg", notify("workbench.action.findInFiles"), { silent = true }) -- use ripgrep to search files
+	keymap("n", "<Space>ts", notify("workbench.action.toggleSidebarVisibility"), { silent = true })
+	keymap("n", "<Space>th", notify("workbench.action.toggleAuxiliaryBar"), { silent = true }) -- toggle docview (help page)
+	keymap("n", "<Space>tp", notify("workbench.action.togglePanel"), { silent = true })
+	keymap("n", "<Space>fc", notify("workbench.action.showCommands"), { silent = true }) -- find commands
+	keymap("n", "<Space>ff", notify("workbench.action.quickOpen"), { silent = true }) -- find files
+	keymap("n", "<Space>tw", notify("workbench.action.terminal.toggleTerminal"), { silent = true }) -- terminal window
+
+	keymap("v", "<Space>fm", v_notify("editor.action.formatSelection"), { silent = true })
+	keymap("v", "<Space>ca", v_notify("editor.action.refactor"), { silent = true })
+	keymap("v", "<Space>fc", v_notify("workbench.action.showCommands"), { silent = true })
 end
 
 set_keymaps()
