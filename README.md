@@ -375,3 +375,28 @@ This repository contains my standalone Yabai, skhd, tmux and nvim configurations
 ### See outline in right hand side:
 
 <kbd>space</kbd> + <kbd>o</kbd>
+
+
+## NVIM in VSCODE key bindings:
+
+- Splitting and Managing Editors:
+
+SPACE + s then h: Split the editor horizontally.
+SPACE + s + v: Split the editor vertically.
+Ctrl + W then N: Create a new horizontal split with a new file.
+Ctrl + W then =: Even out the widths of all editors.
+Ctrl + W then >: Increase the size of the current editor. This can be preceded by a count for multiple increases.
+Ctrl + W then <: Decrease the size of the current editor. This can be preceded by a count for multiple decreases.
+Ctrl + W then -: Decrease the size of the current editor. This can be preceded by a count for multiple decreases.
+Ctrl + W then _: Toggle the width of the current editor.
+Navigation:
+
+Ctrl + J: Navigate downwards in the editor.
+Ctrl + K: Navigate upwards in the editor.
+Ctrl + H: Navigate left in the editor.
+Ctrl + L: Navigate right in the editor.
+Miscellaneous:
+
+Ctrl + /: Invoke the Comment function (note: this function needs to be defined separately).
+Spacebar: Show the 'whichkey' menu.
+These key combinations are configured to work in both normal and visual modes in NeoVim, except for Ctrl + W then _ and Spacebar, which are only set for normal mode. The combination Ctrl + W then N is specifically for creating a new horizontal split. If you need similar functionality for vertical splits, you would need to add an additional configuration for that.

@@ -39,8 +39,6 @@ return packer.startup(function(use)
 	-- a plugin for indenting lines
 	use("lukas-reineke/indent-blankline.nvim")
 
-	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
-
 	use("szw/vim-maximizer") -- maximizes and restores current window
 
 	-- essential plugins
@@ -145,6 +143,18 @@ return packer.startup(function(use)
 	-- 		require("toggleterm").setup()
 	-- 	end,
 	-- })
+
+	-- vscode easymotion
+	if vim.g.vscode then
+		use("asvetliakov/vim-easymotion")
+	end
+
+	use({
+		"christoomey/vim-tmux-navigator",
+		cond = function()
+			return not vim.g.vscode
+		end,
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()
