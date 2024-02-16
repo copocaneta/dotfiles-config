@@ -158,6 +158,7 @@ local function set_keymaps()
 	keymap("n", "<Space>rn", notify("editor.action.rename"), { silent = true })
 	keymap("n", "<Space>fm", notify("editor.action.formatDocument"), { silent = true })
 	keymap("n", "<Space>ca", notify("editor.action.refactor"), { silent = true }) -- language code actions
+	keymap("n", "<Space>e", notify("workbench.view.explorer"), { silent = true })
 
 	keymap("n", "<Space>rg", notify("workbench.action.findInFiles"), { silent = true }) -- use ripgrep to search files
 	keymap("n", "<Space>ts", notify("workbench.action.toggleSidebarVisibility"), { silent = true })
@@ -166,6 +167,7 @@ local function set_keymaps()
 	keymap("n", "<Space>fc", notify("workbench.action.showCommands"), { silent = true }) -- find commands
 	keymap("n", "<Space>ff", notify("workbench.action.quickOpen"), { silent = true }) -- find files
 	keymap("n", "<Space>tw", notify("workbench.action.terminal.toggleTerminal"), { silent = true }) -- terminal window
+	keymap("n", "<Space>b", notify("open-buffers.openBuffer"), { silent = true })
 
 	keymap("v", "<Space>fm", v_notify("editor.action.formatSelection"), { silent = true })
 	keymap("v", "<Space>ca", v_notify("editor.action.refactor"), { silent = true })

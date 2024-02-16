@@ -1,7 +1,7 @@
 if vim.g.vscode then
 	-- VSCode extension
 	require("copocaneta.core.vscodesettings")
-	require("copocaneta.plugins.vscodeeasymotion")
+	-- require("copocaneta.plugins.vscodeeasymotion")
 else
 	print("Loading standard NeoVim configuration")
 	require("copocaneta.plugins-setup")
