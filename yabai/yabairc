@@ -1,0 +1,72 @@
+
+# border style:
+yabai -m config window_border                on
+yabai -m config window_border_placement      inset
+yabai -m config window_border_width          4
+yabai -m config window_border_radius         -1.0
+yabai -m config active_window_border_topmost off
+yabai -m config active_window_border_color   0xffff603b
+yabai -m config normal_window_border_color   0xff505050
+yabai -m config insert_window_border_color   0xffd75f5f
+
+# default layout (can be bsp, stack or float)
+yabai -m config layout bsp
+
+# new window spawns to the right if vertical split, or bottom if horizontal split
+yabai -m config window_placement second_child
+
+# padding set to 12px
+yabai -m config top_padding 12
+yabai -m config bottom_padding 12
+yabai -m config left_padding 12
+yabai -m config right_padding 12
+yabai -m config window_gap 12
+
+# -- mouse settings --
+
+# center mouse on window with focus
+yabai -m config mouse_follows_focus on
+
+# modifier for clicking and dragging with mouse
+yabai -m config mouse_modifier alt
+# set modifier + left-click drag to move window
+yabai -m config mouse_action1 move
+# set modifier + right-click drag to resize window
+yabai -m config mouse_action2 resize
+
+# when window is dropped in center of another window, swap them (on edges it will split it)
+yabai -m mouse_drop_action swap
+
+
+# disable specific apps
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Simulator$" manage=off
+yabai -m rule --add app="^Harvest$" manage=off
+yabai -m rule --add app="^Terminal$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^Preview$" manage=off
+yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^Steam$" manage=off
+yabai -m rule --add app="^Irvue$" manage=off
+yabai -m rule --add app="^Sign in$" manage=off
+yabai -m rule --add app="^qemu-system-aarch64$" manage=off
+yabai -m rule --add app="^QuickTime Player$" manage=off
+yabai -m rule --add label="System Preferences" app="^System Preferences$" title=".*" manage=off
+yabai -m rule --add label="App Store" app="^App Store$" manage=off
+yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
+yabai -m rule --add label="Software Update" title="Software Update" manage=off
+yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
+yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add app="^Google Chrome$" title="^DevTools" manage=off
+yabai -m rule --add app="Finder" title=" Info" manage=off
+yabai -m rule --add app="Finder" title="Copy" manage=off
+yabai -m rule --add app="Finder" title="Mov" manage=off
+yabai -m rule --add app="Finder" title="Trash" manage=off
+yabai -m rule --add title="Preferences" manage=off
+yabai -m rule --add app="iTunes" title="MiniPlayer" manage=off
+yabai -m rule --add app="Music" title="MiniPlayer" manage=off
+yabai -m rule --add app="Front" title="New Message" manage=off
+yabai -m rule --add app="Front" title="New Discussion" manage=off
+yabai -m rule --add app="Firefox" title="Picture-in-Picture" manage=off
+yabai -m rule --add app="Google Chrome" title="Picture in Picture" manage=off
