@@ -171,6 +171,10 @@ local function set_keymaps()
 	keymap("n", "<Space>b", notify("open-buffers.openBuffer"), {silent = true})
 	-- find all implementations
 	keymap("n", "gi", notify("editor.action.goToImplementation"), { silent = true })
+	-- fold
+	keymap("n", "zc", notify("editor.fold"), { silent = true })
+	-- unfold
+	keymap("n", "zo", notify("editor.unfold"), { silent = true })
 
 	keymap("v", "<Space>fm", v_notify("editor.action.formatSelection"), { silent = true })
 	keymap("v", "<Space>ca", v_notify("editor.action.refactor"), { silent = true })
