@@ -1,0 +1,100 @@
+{
+	"analytics-uuid": "c970e4ae-10e2-4ef7-88f0-82aa16a48bb7",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1721651665184
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "109226616381722176919",
+		"hd": "crowdform.co.uk",
+		"email": "thiago@crowdform.co.uk",
+		"email_verified": true,
+		"at_hash": "9JdIjM83ldAy4CMIBUjSMw",
+		"iat": 1674182000,
+		"exp": 1674185600
+	},
+	"tokens": {
+		"expires_at": 1721658417464,
+		"refresh_token": "1//0hub6kqA_Lsj6CgYIARAAGBESNwF-L9IrAkrDq5z4k8IzIFjNzZ6LIcQD-9XtvUpMZyFec9hviN6SL5lhH2YOTGRuEkOWO_pqNCo",
+		"scopes": [],
+		"access_token": "ya29.a0AXooCgtRdaC9PaSob4dAuefBfjYjNx1h7bvamCAQNzR0ShtyW2ZNyy2HgOCB_QAd1-oq8nxpH-RGzj4_0w0yvJ0Wmj-FN2KXjkMHGrTFI5w0W-xp0OTl57BFWBMhs3TksufY9ks-pzX1WZmOZQ4yLPFtXd1B9chSWGAvOlZuDs_YaCgYKAasSARMSFQHGX2Mi8os3C4elDdnoWs9JgwZ5hA0179",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform openid https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImYyZTExOTg2MjgyZGU5M2YyN2IyNjRmZDJhNGRlMTkyOTkzZGNiOGMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5MjI2NjE2MzgxNzIyMTc2OTE5IiwiaGQiOiJjcm93ZGZvcm0uY28udWsiLCJlbWFpbCI6InRoaWFnb0Bjcm93ZGZvcm0uY28udWsiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6ImdrUlFSTEYzSTk2c0FTazhCcmh3WGciLCJpYXQiOjE3MjE2NTQ4MTgsImV4cCI6MTcyMTY1ODQxOH0.f2EMLcj8JubEHTzQ1PKELnBrib_I7VziyIa2tlshHbIP875e-Q8U0Lhn-DZ1Uctd-BmIGjbo2eQuwW19YcfgKnsm_Kivg9Yg43RBvqVjXd0ak-o-UUkXz6wQJMpeM8gHeeJ9hGJnFkCTlv--o59vfGHo-weRhEwQndf1vkVtRJeDd92w7rlhMWNAFpNHiYCaWpa2mXZyTJnVql4oKG65q7DdnaVFDbljKPDJOH89sFCopB4zS9qdZPOaS_OT1ft0bjauUUFO_TqSnqbiKS5v35FRSk_Rd45EWvkSOjid2z9EZ18zwtHdC0cveqmO6l6pg-TxTqdjHBWnD06B9lSvVA"
+	},
+	"activeProjects": {
+		"/Users/thiagob/Documents/development/crowdform/mintstars/packages/frontend-service": "mintstars-prod",
+		"/Users/thiagob/Documents/development/crowdform/crbn/zero-app": "carbon-mkt-staging",
+		"/Users/thiagob/Documents/development/crowdform/streaks/streaks": "streaksai-dev",
+		"/Users/thiagob/Documents/development/crowdform/crbn/zero-app/packages/client-api": "midoricarbon-cloud-internal",
+		"/Users/thiagob/Documents/development/crowdform/crbn/zero-app/packages/cloud": "midoricarbon-cloud-internal",
+		"/Users/thiagob/Documents/development/crowdform/kondor/functions": "kondor-176a9",
+		"/Users/thiagob/Documents/development/crowdform/kondor": "kondor-176a9",
+		"/Users/thiagob/Documents/development/crowdform/kondor/cloud": "kondor-176a9",
+		"/Users/thiagob/Documents/development/crowdform/flexai/feather": "feather-ai",
+		"/Users/thiagob/Documents/development/crowdform/feather": "flex-staging-36151",
+		"/Users/thiagob/Documents/development/crowdform/sumoswap/packages/frontend": "sumoswap-production",
+		"/Users/thiagob/Documents/development/crowdform/feather/packages": "flex-staging-36151",
+		"/Users/thiagob/Documents/development/crowdform/feather/packages/frontend": "feather-ai",
+		"/Users/thiagob/Documents/development/crowdform/feather/packages/cloud": "feather-ai",
+		"/Users/thiagob/Documents/development/crowdform/ninja-bot": "ninja-development-417014",
+		"/Users/thiagob/Documents/development/crowdform/ape-lol/apelol/packages/cloud": "ape-lol",
+		"/Users/thiagob/Documents/development/crowdform/cykel/packages/web-app": "cykel-internal"
+	},
+	"adminsdkconfig": {
+		"mimetic-firefly-363003": {
+			"projectId": "mimetic-firefly-363003",
+			"storageBucket": "mimetic-firefly-363003.appspot.com",
+			"locationId": "europe-west"
+		},
+		"streaksai": {
+			"projectId": "streaksai",
+			"storageBucket": "streaksai.appspot.com",
+			"locationId": "europe-west"
+		},
+		"streaksai-dev": {
+			"projectId": "streaksai-dev",
+			"storageBucket": "streaksai-dev.appspot.com",
+			"locationId": "europe-west"
+		},
+		"feather-ai": {
+			"projectId": "feather-ai",
+			"storageBucket": "feather-ai.appspot.com",
+			"locationId": "europe-west"
+		}
+	},
+	"emulator-analytics-clientId": "e6f3d0d1-98c5-4d56-8d64-e5d3af7caaa0",
+	"webconfig": {
+		"streaksai": {
+			"projectId": "streaksai",
+			"appId": "1:49288498402:web:c4278ac928ebf0483e62bb",
+			"storageBucket": "streaksai.appspot.com",
+			"locationId": "europe-west",
+			"apiKey": "AIzaSyBLM3LssyxEaC1QnKVizSM5xv0NVfawZv0",
+			"authDomain": "streaksai.firebaseapp.com",
+			"messagingSenderId": "49288498402",
+			"measurementId": "G-TVWJQQPQH8"
+		},
+		"feather-ai": {
+			"projectId": "feather-ai",
+			"appId": "1:667411036342:web:377a2f72ff2ad048140e17",
+			"storageBucket": "feather-ai.appspot.com",
+			"locationId": "europe-west",
+			"apiKey": "AIzaSyBnRITZSKAZtjjUHTk1dzx-yCzKMwM7S9g",
+			"authDomain": "feather-ai.firebaseapp.com",
+			"messagingSenderId": "667411036342",
+			"measurementId": "G-M7NR08SKJT"
+		}
+	}
+}
